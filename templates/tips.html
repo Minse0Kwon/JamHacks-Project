@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link href="../static/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+  <form class="form-signin" action="{{url_for('suggest')}}" method="POST">
+    <h1 class="h2 mb-3 font-weight-normal">Tell us how you feel.</h1><br><br>
+    <input type="text" id="probl" name="prob" class="form-control" placeholder="Tell us your problems and issues!" />
+    <button class="btn btn-lg btn-primary btn-block" value="submit">Submit</button>
+  </form>
+</body>
+</html>
+
+
